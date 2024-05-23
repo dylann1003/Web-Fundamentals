@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 div {
     max-width: 1600px;
 }
@@ -6,33 +8,21 @@ div {
     margin: 0 auto;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+/* navagation bar */
 nav a {
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     background-color: #CD131F;
-    color: #FEF8EC;
-    
-}
+    color: #FEF8EC;  
 
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-#background {
-    height: 725px;
-    background-color: #7A0000;
-}
-
-body {
-    background-color: #AAC7DA;
+    display: inline;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    padding: 35px;
+    margin: auto;
 }
 
 header {
@@ -44,10 +34,69 @@ nav a:hover {
     color: #7A0000;
 }
 
+.logo {
+    width: 80px;
+    padding: 10px;
+}
+
+#logo_link {
+    padding: 5px;
+}
+
+/*hero image*/
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+/*body of page*/
+#background {
+    height: 725px;
+    background-color: #7A0000;
+}
+
+body {
+    background-color: #AAC7DA;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+main section {
+    text-align: center;
+}
+
+/*text right under hero*/
+.home-title {
+    color: #FEF8EC;
+    font-family: 'bebas neue', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #FEF8EC;
+}
+
+/*buttons*/
+.button-box {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
 .book, .join {
     background-color: #FEF8EC;
     color: #7A0000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,29 +104,57 @@ nav a:hover {
     color: #7A0000;
 }
 
+/*icons*/
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.card-img {
+    width: 400px;
+    border: 10px solid black;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+/*message picture and text*/
 .msg {
     background-color: #FEF8EC;
-}
-
-footer {
-    background-color: #CD131F;
-    color: #FEF8EC;
-}
-
-.home-title {
-    color: #FEF8EC;
-}
-
-h4 {
-    color: #FEF8EC;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #7A0000;
+    font-family: 'bebas neue', Helvetica, sans-serif;
 }
 
 .msg p {
     color: #7A0000;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.canyons {
+    width: 100%;
+}
+
+/*footer*/
+footer {
+    background-color: #CD131F;
+    color: #FEF8EC;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -89,32 +166,16 @@ footer a:hover {
     color: #7A0000;
 }
 
-.logo {
-    width: 80px;
-}
-
-.icon {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
-}
-
-.card-img {
-    width: 100%;
-}
-
-.canyons {
-    width: 100%;
-}
-
 footer p {
     font-size: 1.2em;
 }
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 
