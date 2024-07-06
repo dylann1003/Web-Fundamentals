@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+/*the whole page*/
+body {
+    background-color: black;
+    color: white;
+    font-family: Lora;
+    margin: 0px;
+}
+
+/*nav bar*/
+nav {
+    display: flex;
+    height: 50px;
+}
+
+nav a img {
+    font-family: Lora;
+    padding-left: 35px;
+    margin: auto;
+    align-content: center; 
+}
+
+.navtext {
+    text-decoration: none;
+    color: #FEF8EC;
+    font-size: 1.7vw; 
+    align-content: center; 
+    padding: 10px;
+    margin: 10px;
+
+}
+
+nav a:hover {
+    color: #063B4B;
+}
+
+#logo {
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+}
+
+/*hero haptic definition*/
+#hero {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#hero h1 {
+    font-size: 8vw;
+    padding: 30px 20px 0px 60px;
+    margin: 0px;
+    text-align: left;
+    align-content: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#hero h3 {
+    font-size: 3vw;
+    padding: 0px 20px 20px 100px;
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+/*The Problem*/
+#problem {
+    height: 300px;
+    background-color: #F48924;
+    text-align: center;
+}
+
+#problem h2 {
+    font-size: 2em;
+    text-align: left;
+    padding: 20px 0px 0px 20px;
+}
+
+#problem h3 {
+    font-size: 2.5vw;
+    padding: -10px 60px 20px 60px;
+}
+
+/*The Brain*/
+#brain {
+    position: relative;
+    text-align: center;
+}
+
+#brain img {
+    width: 100%;
+}
+
+#brain h2 {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    font-size: 2em;
+}
+
+#brain h3 {
+    position: absolute;
+    top: 70px;
+    left: 16px;
+    font-size: 3vw;
+}
+
+/*substitution box*/
+
+#ssd {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+#ssd h3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 0px 20px 20px 40px;
+    font-size: 3vw;
+}
+
+#ssd p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 70px 20px 20px 40px;
+    font-size: 2vw;
+}
+
+#ssd img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    max-width: 100%;
+    height: auto;
+    width: auto\\9;
+
+    border-radius: 15px;
+    border: 3px solid grey;
+    margin: 20px;
+}
+
+/*addition box*/
+#sad {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+#sad img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    max-width: 100%;
+    height: auto;
+    width: auto\\9;
+
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#sad h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 0px 20px 20px 40px;
+    font-size: 3vw;
+}
+
+#sad p {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 70px 20px 20px 40px;
+    font-size: 2vw;
+}
+
+/*wrap up box*/
+#wrap {
+    background-color: #1F838F;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+#wrap h2 {
+    font-size: 1.8em;
+    padding: 20px 20px 0px 20px;
+}
+
+#wrap a {
+    text-decoration: none;
+    color: #063B4B;
+    background-color: white;
+    padding: 10px;
+}
+
+#wrap a:hover {
+    background-color: black;
+}
+
+/**/
+footer p{
+    font-size: .8em;
+}
