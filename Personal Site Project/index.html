@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Neurotech Explained | Home</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">
-            <img id="logo" src="site-plan/images/logo-black.png" alt="nuerotech explained logo">
-            <a class="navtext" href="index.html">HOME</a>
-            <a class="navtext" href="possibilities.html">POSSIBILITIES</a>
-            <a class="navtext" href="learnmore.html">LEARN MORE</a>
-    </nav>
 
+    <div class="topnav" id="myTopnav">
+        <a class="logolink" href="index.html">
+            <img id="logo" src="site-plan/images/logo-black.png" alt="neurotech explained logo">
+        </a>
+        <a href="index.html" class="active">Home</a>
+        <a href="possibilities.html">Possibilities</a>
+        <a href="learnmore.html">Learn More</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+    </div>
+    <script src="navbar.js"></script>
+    
     <div id="hero">
        <h1>hap·tic <i>[ˈhaptik]</i></h1> 
        <h3><i>adj.</i> relating to the sense of touch, in particular relating to the perception and manipulation of objects using the senses of touch and proprioception.</h3>
@@ -22,13 +28,15 @@
 
     <div id="problem">
         <h2>The Problem</h2>
-        <h3>“We are trapped on a very thin slice of perception” (David Eagleman). We only see a tiny percentage of colors, sounds, and feelings. There are cellphone and radio signals we cannot hear and colors cannot see. These things are not unseeable. The problem is we are not naturally equipt with the sensors to pick them up.</h3>
+        <h3>“We are trapped on a very thin slice of perception” (David Eagleman). We only see a tiny percentage of colors, sounds, and feelings. There are cellphone and radio signals we cannot hear and colors we cannot see. These things are not unseeable. The problem is we are not naturally equipt with the sensors to pick them up.</h3>
     </div>
 
     <div id="brain">
         <img src="site-plan/images/brain_scan.jpg" alt="brain pattern">
-        <h2>The Brain</h2>
-        <h3>Our brains are master data interpreters; it figures out how to read any data it is given. Electrical signals from our eyes, ears, and nerves are converted into interpretations of the world around us. “Due to the brain's remarkable flexibility, there is the possibility of leveraging entirely new data streams directly into perception” (Hawkins and Blakeslee, 2007; Eagleman, 2015).</h3>
+        <div class="content">
+            <h2>The Brain</h2>
+            <h3>Our brains are master data interpreters; it figures out how to read any data it is given. Electrical signals from our eyes, ears, and nerves are converted into interpretations of the world around us. “Due to the brain's remarkable flexibility, there is the possibility of leveraging entirely new data streams directly into perception."</h3>
+        </div>
     </div>
 
     <div id="ssd">
