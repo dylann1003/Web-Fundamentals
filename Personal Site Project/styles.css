@@ -17,11 +17,12 @@ body {
 .topnav a.logolink {
     padding: 0;
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: black;
     overflow: hidden;
-  }
+}
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -77,7 +78,7 @@ body {
 
 /*hero haptic definition*/
 #hero {
-    height: 500px;
+    height: 550px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -111,20 +112,21 @@ body {
 
 #problem h2 {
     font-size: 2em;
-    text-align: left;
-    padding: 20px 0px 0px 20px;
+    text-align: center;
+    padding: 40px 0px 0px 20px;
 }
 
 #problem h3 {
     font-size: 2.5vw;
-    padding: -10px 60px 20px 60px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 /*The Brain*/
 #brain {
     position: relative;
-    text-align: left;
-    margin: 30px;
+    text-align: center;
+    margin: 20px;
 }
 
 #brain img {
@@ -133,9 +135,12 @@ body {
 
 #brain h2 {
     position: absolute;
-    top: 10px;
-    left: 200px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
     font-size: 3vw;
+    padding: 10px;
 
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, .8); /* Black background with 0.5 opacity */
@@ -143,9 +148,12 @@ body {
 
 #brain h3 {
     position: absolute;
-    top: 70px;
-    left: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
     font-size: 2vw;
+    padding: 20px;
 
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.8); /* Black background with 0.5 opacity */
@@ -159,7 +167,7 @@ body {
     margin: 20px;
     background-color: white;
     color: black;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #ssd h3 {
@@ -181,9 +189,9 @@ body {
     grid-row: 1/2;
 
     height: auto;
-    width: auto\\9;
+    width: 30vw;
 
-    border-radius: 15px;
+    border-radius: 10px;
     border: 3px solid grey;
     margin: 20px;
 }
@@ -195,7 +203,7 @@ body {
     margin: 20px;
     background-color: white;
     color: black;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #sad img {
@@ -204,10 +212,10 @@ body {
 
     max-width: 100%;
     height: auto;
-    width: auto\\9;
+    width: 30vw;
 
     margin: 20px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #sad h3 {
@@ -227,14 +235,15 @@ body {
 /*wrap up box*/
 #wrap {
     background-color: #1F838F;
-    height: 250px;
+    height: 220px;
     text-align: center;
     position: relative;
 }
 
 #wrap h2 {
-    font-size: 1.8em;
+    font-size: 3vw;
     padding: 20px 20px 0px 20px;
+    margin: 30px;
 }
 
 #wrap a {
@@ -251,4 +260,5 @@ body {
 /**/
 footer p{
     font-size: .8em;
+    color: grey;
 }
