@@ -82,6 +82,8 @@ body {
 /*videos*/
 #videos {
   background-color: #063B4B;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 #videos h3 {
@@ -99,6 +101,9 @@ body {
 /*articles*/
 #articles {
   background-color: #063B4B;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
 }
 
 #articles h3 {
@@ -110,7 +115,7 @@ body {
 #articles p {
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 #articles a {
